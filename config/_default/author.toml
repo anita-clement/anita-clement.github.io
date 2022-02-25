@@ -1,0 +1,18 @@
+name = "Anita Clement"
+# avatar = "images/profile.png" # Avatar image. Default to "images/profile.webp".
+bio = "Senior Data Scientist, MLOps."
+company = 'RVU'
+# company = '<a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>'
+location = "London, United Kingdom"
+# alternatives:
+# location = "<a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>"
+# location = "<a href='https://www.google.com/maps/search/Earth'>Earth</a>"
+# about = "https://domain.tld" # The external about page. The internal about page will be used if not set.
+
+[params]
+  #layout = "compact"
+
+[social]
+  email = "anita.clment@gmail.com"
+  facebook = "yourfacebookusername"
+  github = "anita-clement"
