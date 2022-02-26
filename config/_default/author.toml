@@ -1,8 +1,8 @@
 name = "Anita Clement"
 # avatar = "images/profile.png" # Avatar image. Default to "images/profile.webp".
 bio = "Senior Data Scientist, MLOps."
-company = 'RVU'
-# company = '<a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>'
+# company = 'RVU'
+company = '<a href="https://www.rvu.co.uk/" target="_blank" rel="noopener noreferrer">RVU</a>'
 location = "London, United Kingdom"
 # alternatives:
 # location = "<a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>"
@@ -14,5 +14,5 @@ location = "London, United Kingdom"
 
 [social]
   email = "anita.clment@gmail.com"
-  facebook = "yourfacebookusername"
+  linkedin = "anita-cl%C3%A9ment"
   github = "anita-clement"
