@@ -10,9 +10,6 @@ tags: [
     "black",
     "isort",
     "mypy",
-    "nbqa black",
-    "nbqa isort",
-    "end-of-file-fixer"
 ]
 ---
 
@@ -165,6 +162,7 @@ flake8 my_dir/my_subdir/
 - `F***`: [PyFlakes codes](https://flake8.pycqa.org/en/2.6.0/warnings.html)
 - `C9**`: McCabe complexity plugin [mccabe](https://github.com/PyCQA/mccabe)
 - `N8**`: Naming Conventions plugin [pep8-naming](https://github.com/flintwork/pep8-naming)
+
 
 #### Skipping a line or a file
 
