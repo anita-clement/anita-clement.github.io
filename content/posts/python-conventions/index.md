@@ -166,7 +166,7 @@ flake8 my_dir/my_subdir/
 - `C9**`: McCabe complexity plugin [mccabe](https://github.com/PyCQA/mccabe)
 - `N8**`: Naming Conventions plugin [pep8-naming](https://github.com/flintwork/pep8-naming)
 
-#### Skip line or file
+#### Skipping a line or a file
 
 If you want Flake8 to skip a file, add the following comment at the top:
 ```python
@@ -194,10 +194,27 @@ black my_dir/my_subdir/
 ```
 .
 
-#### Skip block or line
+#### Skipping a block or a line
 
 Black won't reformat blocks that start with `# fmt: off` and end with `# fmt: on`. \
 It also won't reformat lines that ends with `# fmt: skip`.
+
+#### Running black on jupyter notebooks
+
+You can also reformat your jupyter notebooks to make them PEP8 compliant using nbQA in combination with black. \
+nbQA's documentation can be found [here](https://nbqa.readthedocs.io/_/downloads/en/stable/pdf/).
+
+To install nbqa using pip, run
+```
+pip install nbqa
+```
+.
+
+You can then launch the `nbqa` command in combination with `black` to reformat your whole project directory or you can pass a single file:
+```
+nbqa black notebook.ipynb
+```
+.
 
 ### isort
 
@@ -252,7 +269,7 @@ from third_party import (lib1, lib2, lib3, lib4, lib5, lib6, lib7, lib8,
 from my_lib import Object, Object2, Object3
 ```
 
-#### Skip import or file
+#### Skipping an import or a file
 
 If you want isort to skip a file, add `isort:skip_file` to the docstring:
 ```python
@@ -265,6 +282,16 @@ If you want isort to skip a file, add `isort:skip_file` to the docstring:
 .
 
 If you just want to skip an import, add a `# isort:skip` comment at the end of the corresponding line.
+
+#### Running isort on jupyter notebooks
+
+The same way you can run black on notebooks, you can use nbQA to sort your imports in your notebooks.
+
+Simply launch the `nbqa` command in combination with `isort` to reformat your whole project directory or pass a specific notebook:
+```
+nbqa isort my_notebook.ipynb
+```
+.
 
 ### mypy
 
@@ -285,14 +312,9 @@ mypy myscript.py myscript2.py
 ```
 .
 
-#### Skip line or file
+#### Skipping a line or a file
 
 You can ignore typing errors in an entire script by adding a `# type: ignore` or a `# mypy: ignore-errors` comment at the beginning of the file.
 
 If you want mypy to skip a line only, add a `# type: ignore` comment at the end of the corresponding line.
 
-### nbqa black
-
-### nbqa isort
-
-### end-of-file-fixer
