@@ -1,9 +1,9 @@
-name = "Razon Yang"
+name = "Anita Clement"
 # avatar = "images/profile.png" # Avatar image. Default to "images/profile.webp".
-bio = "Gopher, PHPer, Full Stack Engineer."
-company = 'Company'
+bio = "MLOps, Senior Data Scientist"
+company = '<a href="https://www.rvu.co.uk/" target="_blank" rel="noopener noreferrer">RVU</a>'
 # company = '<a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>'
-location = "Earth"
+location = "London, United Kingdom"
 # alternatives:
 # location = "<a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>"
 # location = "<a href='https://www.google.com/maps/search/Earth'>Earth</a>"
@@ -13,7 +13,6 @@ location = "Earth"
   #layout = "compact"
 
 [social]
-  email = "user@domain.tld"
-  facebook = "yourfacebookusername"
-  github = "yourgithubusername"
-  twitter = "yourtwitterusername"
+  email = "anita.clment@gmail.com"
+  linkedin = "anita-cl%C3%A9ment"
+  github = "anita-clement"

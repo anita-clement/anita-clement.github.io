@@ -10,8 +10,8 @@ keywords = "Hugo, Bootstrap, Blog Theme"
 # metaRobots = "" # disable Meta Tag "robots"
 
 # logo = "images/logo.png" # Logo image. Default to "images/logo.webp".
-# logo = false # Disable Logo
-brand = "BOOTSTRAP"
+logo = false # Disable Logo
+brand = ""
 
 palette = "blue" # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # palettes = ["blue", "blue gray", "brown"] # Available palettes. Default to ALL.
