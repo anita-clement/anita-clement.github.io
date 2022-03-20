@@ -10,14 +10,14 @@ keywords = "Hugo, Bootstrap, Blog Theme"
 # metaRobots = "" # disable Meta Tag "robots"
 
 # logo = "images/logo.png" # Logo image. Default to "images/logo.webp".
-logo = false # Disable Logo
-brand = ""
+# logo = false # Disable Logo
+brand = "BOOTSTRAP"
 
-palette = "blue gray" # Default palette. Optional. You'll need to clear the browser cache after modifying this.
+palette = "blue" # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # palettes = ["blue", "blue gray", "brown"] # Available palettes. Default to ALL.
 # palettes = [] # Disable palette switcher.
 
-color = "dynamic" # light, dark or dynamic. Default to dynamic.
+# color = "dark" # light, dark or dynamic. Default to dynamic.
 
 # fullWidth = true # Full width.
 # fixedHeader = false # Turn on/off fixed header.
@@ -46,7 +46,7 @@ googleAdsense = ""
 # tagCount = 10 # The number of tags shown in sidebar. Turn off by setting it to false.
 # seriesCount = 20 # The number of series shown in sidebar. Turn off by setting it to false.
 # taxonomyPaginate = 5 # Default to 10.
-taxonomyPostCount = 21 # The number of taxonomy's posts. Turn off by setting it to false.
+taxonomyPostCount = 20 # The number of taxonomy's posts. Turn off by setting it to false.
 countTaxonomyPosts = true # Count posts of taxonomy.
 
 # sidebarTaxonomies = ["categories", "tags", "series"] # The order of taxonomies on the sidebar.
@@ -65,6 +65,9 @@ tocWordCount = 1 # TOC is displayed only if the post's word count exceeds this v
 titleCase = true # Capitalized title.
 
 viewer = true # Image Viewer
+
+# backgroundImage = ['/images/bg-light.png', '/images/bg-dark.png']
+# rss = "home" # link the RSS button to homepage all the times.
 
 [codeBlock]
   # maxLines = 8
