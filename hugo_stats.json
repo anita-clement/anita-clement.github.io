@@ -316,6 +316,8 @@
     ],
     "ids": [
       "TableOfContents",
+      "a-namehead1234ainstalling-the-git-hook-scripts",
+      "a-nameinstalling-git-hook-scriptsainstalling-the-git-hook-scripts",
       "black",
       "btnLoadMore",
       "btnPalette",
@@ -375,6 +377,7 @@
       "rewardModal",
       "rewardModalLabel",
       "rewardTabContent",
+      "run-against-all-the-files",
       "running-black-on-jupyter-notebooks",
       "running-isort-on-jupyter-notebooks",
       "searchForm",
@@ -388,13 +391,10 @@
       "tabHugo",
       "tabTheme",
       "table",
-      "tab主题",
       "templateMissingKeywords",
       "templateNoResults",
       "templateResult",
-      "templateStat",
-      "列表",
-      "表格"
+      "templateStat"
     ]
   }
 }
