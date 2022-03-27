@@ -316,7 +316,6 @@
     ],
     "ids": [
       "TableOfContents",
-      "a-namehead1234ainstalling-the-git-hook-scripts",
       "a-nameinstalling-git-hook-scriptsainstalling-the-git-hook-scripts",
       "black",
       "btnLoadMore",
@@ -339,7 +338,6 @@
       "flake8",
       "fontSize",
       "git-hooks-and-pre-commit",
-      "installing-the-git-hook-scripts",
       "isort",
       "languageDropdown",
       "list",
